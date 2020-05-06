@@ -13,16 +13,16 @@ The master and stage branches are protected and any pull request needs to be rev
 The dev branch is open and used for development. However, please do not make changes straight into the dev branch. Instead, use sub-branches that merge with the dev branch once the topic of the sub-branch is finished.
 
 #### Using sub-branches
-Please use sub-branches off the dev branch for making code changes. Sub-branches do not have to be pushed to the repo, but can reside on the local computer.
+Please use sub-branches off the dev branch for making code changes. Sub-branches do not have to be pushed to the online repo, but can reside on the local computer.
 
 When naming sub-branches, please use the first letter of the 'type' of the commit, as explained below, followed by a short description of the purpose or the affected file of the branch.
 
 Examples:
 | sub-branch | commit                            |
 | ---------  | --------------------------------- |
-| `f-index`  | `feat: add title`                 |
-| `f-auth`   | `fix: change auth connection url` |
-| `d-readme` | `docs: add git commit policy`     |
+| `f-index`  | `feat: Add title`                 |
+| `f-auth`   | `fix: Change auth connection url` |
+| `d-readme` | `docs: Add git commit policy`     |
 
 ### Commit Messages
 When writing git commit messages, please adhere to the style recommended by [Udacity](https://udacity.github.io/git-styleguide/). Below is an extract of the recommendations for the 'Type' and the 'Subject'.
